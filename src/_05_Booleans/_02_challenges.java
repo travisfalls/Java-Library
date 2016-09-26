@@ -30,6 +30,17 @@ public class _02_challenges {
 		//Silver Challenge
 		
 		
+		
+		
+		//Gold Challenge
+		boolean yes = true;
+		
+		System.out.println("Would you like to play a game?");
+		
+		
+		
+		
+		
 	}
 
 }
