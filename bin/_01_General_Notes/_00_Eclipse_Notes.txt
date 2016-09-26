@@ -1,0 +1,27 @@
+//Note
+
+How to change the background color in Eclipse:
+-Go to https://marketplace.eclipse.org/content/eclipse-color-theme.
+-Drag the "Install" button to your running Eclipse workspace.
+-Follow the prompts
+-Restart Eclipse
+-Go to preferences > General > Appearance > Color Theme
+-Pick the theme you prefer
+
+
+How to see and use a TODO List in Eclipse:
+-Right Click on item in Package Explorer
+-New > Task
+-Add task details
+-Window > Show View > Tasks
+
+
+Eclipse Shortcuts:
+Cmd + N						Create new project using the Wizard
+Cmd + S						Save current file
+Cmd + Shift + S				Save all files
+Cmd + Arrow Left/Right		Jumps to beginning or end of the current line
+Shift + Arrow Left/Right	Expand selection by one character to the left / to the right
+Cmd + D						Delete Line
+Shift + Cmd + Enter			Enter line above current line
+Cmd + F						Open find and replace dialog
