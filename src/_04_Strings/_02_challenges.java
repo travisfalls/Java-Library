@@ -14,12 +14,21 @@ public class _02_challenges {
 		String space = " ";
 		String fullName = first + space + middle + space + last;
 		
-		System.out.println(fullName);
+		String allCaps = fullName.toUpperCase();
+		
+		System.out.println(allCaps);
 		
 		//Silver
 		String phrase = "Soda Can";
 		System.out.println(phrase.substring(0,4));
 		System.out.println(phrase.substring(5,8));
+		
+		//Gold
+		String longPhrase = "sally sells seashells";
+		String letter = "s";
+		
+		
+		
 	}
 
 }
