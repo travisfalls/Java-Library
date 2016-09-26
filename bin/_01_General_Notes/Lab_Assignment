@@ -1,0 +1,259 @@
+Java Objectives for the week:
+SWBAT(Student will be able to):
+
+	-use Eclipse and set up the basic structure for a project in Eclipse.
+	-Understand and write variables using primitive types, conditionals(including Switch Statements), enums, loops, and arrays.
+	-Build classes and make objects from those classes.
+	-Create Interfaces 
+	-Discuss the difference between an Interface and a Class, and have a fundamental understanding of when to use each one. 
+	-Exhibit a fundamental grasp on the overarching concepts of Object Oriented Programming through various assessments, 
+	including discussion, code, and written assessments.
+	
+PART I - ALL TOGETHER
+1. File -> new -> project
+2. Name it Java-151-Primer -> Finish
+3. Right click on src.
+4. Create a new package. Call it _01_General_Notes
+4. Create a new package. Call it _02_Hello_World
+5. Click package. New class -> HelloWorld
+6. Check public static void box.
+7. Create a "Hello World" using System.out.println
+
+/************************************************************************************/
+PART II - WITH A PARTNER or INDIVIDUALLY
+	1. Set up a repo on Github for the project. 
+	2. Push your project with "Hello World" to the repo. 
+
+	TIPS:
+		You might want to set up a practice repo first. This will be a repo that you can immediately delete, if needed.
+		Be sure that you are in the correct directory before you initialize the repo.
+		Take your time. 
+		Review notes from last week.
+		Ask us for help. We will. 
+		Github gives you a few notes to follow when you start a new repo. 
+
+
+/************************************************************************************/
+
+PART III - LAB WITH A PARTNER/INDIVIDUALLY
+
+Here's how the structure of your project will look.
+>Java_Library
+	>src
+		>_01_General Notes
+			_00_Eclipse_Notes.txt
+				-> TODO: Figure out how to change the background in Eclipse. Put a note in this file that tells how to do it.
+				-> TODO: Figure out how to see and use a TODO List in Eclipse. Put a note on how to do it.
+				-> TODO: Start figuring out a few common shortcuts and start making a list in this file. 
+						This will be a list you come back to and keep adding shortcuts as you learn them.
+						For instance, how do we get System.out.println to spit out without typing it all out?
+						How about the "main" function for classes?				
+
+/**************************************Be Sure to commit your code********************************/
+		>_02_HelloWorld
+			_01_HelloWorld.java
+				-> TODO: Figure out how to do a Hello World in Eclipse using Java.
+				-> TODO: In that same file, figure out how to print Hello World to the console in a couple ways.
+							Example console output:   
+									#1 Hello World
+									#2 Hello ->This will use a different method than #1.
+									   World
+
+/**************************************Be Sure to commit your code********************************/
+
+	    >_03_numbers
+	    	_01_numbers.java  
+	    		-> TODO: Create examples of the following Primitive Types: byte, short, int, long, float, double
+	    		-> TODO: Make a few notes/comments about the limits and possible uses for each one
+	    	_02_operators.java
+	    		-> TODO: Show examples of various math operators(hint, we studied these last week).
+	    		-> TODO: Include examples of shorthand operators.
+	    	_03_demo_story.java
+	    		-> TODO: Go to the following url -> https://repl.it/DhOp/1. Copy and paste the code into this file and run it. 
+	    		-> TODO: Read and analyze the code and make sure you understand it. 
+	    	_04_challenge_story.java
+	    		-> TODO: Create a story using math operators. 
+	    		 // CHALLENGE: Make your own expression story using various number types. Also try to use each math operator (+,-,/,*,%)
+
+/**************************************Be Sure to commit your code********************************/
+
+	    >_04_Strings
+	    	_01_Strings.java
+	    		-> TODO: Create several unique strings. Learn how to concatenate with Java. 
+	    		-> TODO: Show how to check whether two strings are equal. Hint: It's not == or ===. There is a specific method that you'll use. 
+	    	_02_challenges.java
+	    		-> TODO: Challenges
+	    			 /*  
+			            BRONZE:
+			                Make three strings, one for your first name, middle name, and last name. Then combine
+			                them into your full name with spaces between each.
+			            SILVER:
+			                Make a String containing the phrase "Soda Can". Then, do a search for subString method
+			                and use it to split the phrase into separate words and store them in strings. Print the two strings.
+			                The console should read: 
+			                				Soda 
+			                				Can
+			            GOLD:
+			                Create a string containing the phrase "sally sells seashells", and using a loop(Will learn later
+			                so you might have to come back) count how many times the letter 's' appears in the phrase.
+			         */
+			         	      
+	    	_03_char.java
+	    		->TODO: Through examples, explain the char type. 
+					/*
+							Hello "Jim", How are you?
+					*/
+					Figure out what some these do:
+						u00A5    \t    \b   \n  \f   \r  \'  \"    \\   */
+					
+
+/**************************************Be Sure to commit your code********************************/
+		>_05_Booleans
+	    	_01_booleans.java
+	    		//TODO: Create a couple booleans. Here are some ideas: 
+	    			1. One for whether or not a homescreen is locked.
+	    			2. One for isTired.
+	    			3. One for whether or not something is on. 
+	    			4. Use each variable with a simple if statement.
+			_02_operators_relational.java
+				//TODO: Use this variable: int bankAccount = 10000, show a variety of relational operators. You can use simple if statements
+				if you want. 
+
+/**************************************Be Sure to commit your code********************************/
+		>_06_inputoutput
+	    	_01_user_input
+	    		//TODO: Figure out how to use the Scanner in Java. Find examples and play around with it, until 
+	    		you feel comfortable. 
+	    		
+			_02_challenges	
+				TODO: 
+					/*
+					BRONZE:
+						Create 2-3 questions you might see on a website using the Scanner.  
+					SILVER:
+						Create a story using the Scanner. 
+						Do your best to add everything you've learned so far in the story. 
+						Include Strings, booleans, integers, operators, etc. 
+					GOLD:
+						Make a choose your own adventure program that uses the Scanner. 
+						Here is what you should use for the first question:
+							You see a wide open door ahead. Do you go through it? 
+							Enter yes or no: 
+						
+						Try to make about 10 different twists and turns in the story. 
+					*/
+
+/**************************************Be Sure to commit your code********************************/
+
+		>_07_conditionals
+	    	_01_if.java
+				//TODO: Come up with several basic if statements and make them all about food.
+				 
+	    	_02_if_else.java
+	    		//TODO: Study & Practice writing an if/else in Java.
+	    		
+	    		BRONZE: 
+	    			 Write 3-5 basic if/else statements as practice.
+	    		SILVER:
+	    		Write an if/else that checks if a password is correct. Use the scanner to accept the password from a user.
+	    		GOLD:
+	    			Use the scanner to help an employee calculate the amount they'll be earning. Here's how the console should read.
+		    			Enter your hourly pay: 
+		    			Enter the number of hours you worked:
+		    			You will earn $    on your check.
+	    		
+	    	_03_else_if.java
+	    		BRONZE:
+	    			Write 3 basic else if statements as practice.
+	    		SILVER: 
+	    			Create an else if that uses both || and &&.
+	    		GOLD:
+	    			Write an else if that allows users to use the Scanner app for assessing grades. The user should be able to enter
+	    			their percentage and get back their letter grade.  It should look like this:
+	    				Enter your percentage:
+	    				Your letter grade is: 
+	    	_04_nested_if.java
+	    		//TODO: Find an example of a nested if statement. Use it to create your own nested if.
+	    	_05_switch.java
+	    		//TODO: Create a switch statement that uses these variables:
+	    			int numPiesEaten = 0;
+	    			String response;
+		    		Write about 4-5 cases that show five responses for the numPiesEaten variable changing.
+	    		 		
+/**************************************Be Sure to commit your code********************************/
+
+		>_08_DataCollection
+			_01_Arrays
+				//TODO: Learn to write Arrays.
+				//TODO: Create and print out 3 different arrays about any topic.
+	    	_02_ArrayList.java
+	    		//TODO: Learn to write ArrayLists.
+	    		//TODO: Create ArrayLists for Strings, Integers, & Doubles.
+	    		//TODO: Learn how to add to an ArrayList.
+	    	_03_ArrayListChallenge.java
+				//TODO: Leave this blank until after you have covered loops.
+				//TODO: Using multiple loops, complete the following challenges: 
+						/*
+		
+						// BRONZE CHALLENGE: After adding numbers 1 - 10 to an array list, print out the size of the list
+						// BRONZE CHALLENGE II:  Add numbers 1 - 10 to an array list, Print out the first and last element in an array, using the ArrayList positions. 
+						// SILVER CHALLENGE: Add the numbers in the array list together and place that into a variable
+						/* 
+						GOLD CHALLENGE: 
+						1) Add numbers in array 1 - 10.
+						2) Print out the array 
+						3) Print out the total of the array 
+						4) Print out the equation the for loop goes through to add each element together
+				
+						i.e this should be your output:
+						0 + 1 = 1
+						1 + 2 = 3
+						3 + 3 = 6
+						6 + 4 = 10
+						10 + 5 = 15
+						15 + 6 = 21
+						21 + 7 = 28
+						28 + 8 = 36
+						36 + 9 = 45
+						45 + 10 = 55
+					*/
+		
+		
+
+/**************************************Be Sure to commit your code********************************/
+
+		>_09_loops
+			_01_while.java
+				//TODO: Study while loops and practice. Try printing 1-10. Do a few examples until
+				you can memorize the pattern.
+				
+				BRONZE:
+				    //Use a while loop to count backwards
+        		SILVER:
+        			//Use a while loop that lists out each letter of your name.
+        		GOLD:
+					/Create a while loop that prints your name backwards.
+				
+	    	_02_for.java
+				//TODO: If you've never done for loops, you will need a lot of practice. We recommend you study these
+				until you can do one without looking. Take a break, and then do some more.	    	
+	    		
+				// Bronze: 
+					Create a loop that counts from 0 to 10 and prints even for even numbers
+				// Silver: 
+					Create a for loop that counts the amount of vowels in a string
+				// Gold: 
+					Create a for loop that counts the amount of vowels in a string given by a user req. input.
+	    		
+
+/**************************************Be Sure to commit your code********************************/
+
+		_10_Practice_Assessment
+			_01_assessment_questions.java
+				//TODO: Leave this blank for now.
+					
+			
+
+
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
