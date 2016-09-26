@@ -41,9 +41,9 @@ public class _04_challenge_story {
 		tacos = tacos * 3;
 		System.out.println(tacos);
 		
-		//The mom wants to take more tacos home than the dad so she can share with a friend down the street. Dad can only keep 10 tacos.
+		//The mom wants to take more tacos home than the dad so she can share with a friend down the street.
 		tacos = tacos % 10;
-		System.out.println("Tacos for mom: " + tacos);
+		System.out.println("Tacos for dad: " + tacos);
 	}
 
 }

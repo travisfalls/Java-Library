@@ -40,7 +40,38 @@ public class _01_numbers {
         //burgersEaten = "five"    -Why won't this work?
         burgersEaten = 5;
         System.out.println(burgersEaten);
+        
+        
+        int age = 31;
+        byte fileSize = 100;
+        long studentID = 123047083487L;
+        double price = 9.99;
+        float temperature = 98.6f;
+        
+        
+        
+        
+
+        System.out.println(burgersEaten);
+        
+        burgersEaten = 25;
+        System.out.println(burgersEaten);
+        
+        
+        System.out.println(age);
+        
+        int tacosEaten;
+        tacosEaten = 1;
+        System.out.println(tacosEaten);
+        
+        tacosEaten = 2;
+        System.out.println(tacosEaten);
 		
 	}
 
 }
+
+
+
+
+

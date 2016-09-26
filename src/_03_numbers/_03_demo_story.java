@@ -1,4 +1,6 @@
-class Main {
+package _03_numbers;
+
+public class _03_demo_story {
   public static void main(String[] args) {
     // A man goes shopping with the following balance:
     double bankBalance = 200.00;
