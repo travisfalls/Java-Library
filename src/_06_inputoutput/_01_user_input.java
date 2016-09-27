@@ -14,16 +14,21 @@ public class _01_user_input {
 		
 		System.out.println("Enter your name below");
 		
-		name = inputInfo.next();
+		name = inputInfo.nextLine();
 		
 		System.out.println("Enter your birth city");
 		
-		birthCity = inputInfo.next();
+		birthCity = inputInfo.nextLine();
 		
 		System.out.println("Enter your age");
 		
 		age = inputInfo.nextInt();
-			
+		
+		System.out.println("Hi, " + name + " you are " + age + " and you were born in " + birthCity);
+		
+		
+		inputInfo.close();
+		
 		
 	}
 

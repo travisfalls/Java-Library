@@ -1,4 +1,4 @@
-package _05_Booleans;
+package _06_inputoutput;
 
 import java.util.Scanner;
 
@@ -16,11 +16,11 @@ public class _02_challenges {
 		
 		System.out.println("Enter your name");
 		
-		name = inputInfo.next();
+		name = inputInfo.nextLine();
 		
 		System.out.println("Enter your city");
 		
-		city = inputInfo.next();
+		city = inputInfo.nextLine();
 		
 		System.out.println("Enter your age");
 		
@@ -28,17 +28,11 @@ public class _02_challenges {
 		
 		
 		//Silver Challenge
+		System.out.println("Hey " + name + ", you live in " + city + " and you are " + age + " years old.");
 		
 		
 		
-		
-		//Gold Challenge
-		boolean yes = true;
-		
-		System.out.println("Would you like to play a game?");
-		
-		
-		
+		//Gold Challenge		
 		
 		
 	}
