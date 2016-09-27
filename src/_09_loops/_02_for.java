@@ -49,7 +49,7 @@ public class _02_for {
 		//Bronze Challenge
 		//Create a loop that counts from 0 to 10 and prints even for even numbers
 		
-		for(int i = 1; i <= 10; i+=2){
+		for(int i = 0; i <= 10; i+=2){
 			System.out.println(i);
 		}
 		

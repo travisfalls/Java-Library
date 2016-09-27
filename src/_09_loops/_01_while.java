@@ -45,12 +45,21 @@ public class _01_while {
 		String name = "Travis";
 		int letters = 0;
 
-		while(letters >= 0){
+		while(letters <= 5){
 			System.out.println(name.charAt(letters));
+			letters++;
 		}
 		
 		
+		//Gold Challenge
+		//Create a while loop that prints your name backwards.
 		
+		int newLetters = 5;
+		
+		while(newLetters >= 0){
+			System.out.println(name.charAt(newLetters));
+			newLetters--;
+		}
 		
 		
 		
