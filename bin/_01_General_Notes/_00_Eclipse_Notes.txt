@@ -10,10 +10,10 @@ How to change the background color in Eclipse:
 
 
 How to see and use a TODO List in Eclipse:
--Right Click on item in Package Explorer
--New > Task
--Add task details
--Window > Show View > Tasks
+-add //TODO before your comment
+-Comment will be added to task list
+-View task list Window > Show View > Tasks
+
 
 
 Eclipse Shortcuts:

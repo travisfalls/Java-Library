@@ -10,12 +10,13 @@ public class _03_ArrayListChallenge {
 		//Bronze Challenge
 		//After adding numbers 1 - 10 to an array list, print out the size of the list
 		
-		ArrayList<Integer> numbers = new ArrayList<Integer>();
+//		ArrayList<Integer> numbers = new ArrayList<Integer>();
+//		
+//		for(int i = 1; i <= 10; i++){
+//			numbers.add(i);
+//		}
+//		System.out.println(numbers.size());
 		
-		for(int i = 1; i <= 10; i++){
-			numbers.add(i);
-		}
-		System.out.println(numbers.size());
 		
 		
 		
@@ -49,12 +50,10 @@ public class _03_ArrayListChallenge {
 		
 		Integer sum = 0;
 		for(Integer i = 1; i <=10; i++){
+			System.out.println(sum + " + " + i + " = " + (sum + i));
 			sum = sum + i;
-			System.out.println(i);
 		}
-		System.out.println(sum);
-		
-		System.out.println();
+
 		
 		
 
