@@ -1,5 +1,7 @@
 package _09_loops;
 
+import java.util.Scanner;
+
 public class _02_for {
 
 	public static void main(String[] args) {
@@ -49,23 +51,49 @@ public class _02_for {
 		//Bronze Challenge
 		//Create a loop that counts from 0 to 10 and prints even for even numbers
 		
-		for(int i = 0; i <= 10; i+=2){
-			System.out.println(i);
-		}
+//		for(int i = 0; i <= 10; i+=2){
+//			System.out.println(i);
+//		}
 		
 		
 		
 		//Silver Challenge
 		//Create a for loop that counts the amount of vowels in a string
-		
+//		String phrase = "How are you doing today?";
+//		int numVowels = 0;
+//		
+//		for(int i = 0; i < phrase.length(); i++) {
+//			if((phrase.charAt(i) != 'a') && (phrase.charAt(i) != 'e') && (phrase.charAt(i) != 'i') && (phrase.charAt(i) != 'I') && (phrase.charAt(i) != 'o' && (phrase.charAt(i) != 'u'))){
+//				continue;
+//			} else {
+//				numVowels++;
+//			}
+//		}
+//		System.out.println(numVowels);
 		
 		
 		
 		//Gold Challenge
 		//Create a for loop that counts the amount of vowels in a string given by a user req. input.
 		
+		Scanner inputInfo = new Scanner(System.in);
+		
+		System.out.println("What's on your mind?");
+		
+		String answer;
+		int numVowels = 0;
+		
+		answer = inputInfo.nextLine();
 		
 		
+		for(int i = 0; i < answer.length(); i++) {
+			if((answer.charAt(i) != 'a') && (answer.charAt(i) != 'A') && (answer.charAt(i) != 'e') && (answer.charAt(i) != 'E') && (answer.charAt(i) != 'i') && (answer.charAt(i) != 'I') && (answer.charAt(i) != 'o') && (answer.charAt(i) != 'O') && (answer.charAt(i) != 'u') && (answer.charAt(i) != 'U')){
+				continue;
+			} else {
+				numVowels++;
+			}
+		}
+		System.out.println("Your sentence has " + numVowels + " vowels in it.");
 		
 	}
 
