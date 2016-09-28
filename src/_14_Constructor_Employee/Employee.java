@@ -39,6 +39,10 @@ public class Employee {
 	System.out.println();
 	}
 	
+	public void speak() {
+		System.out.println("I am an employee.");
+	}
+	
 	
 	
 	
