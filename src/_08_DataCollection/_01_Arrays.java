@@ -45,7 +45,9 @@ public class _01_Arrays {
 		
 		System.out.println(familyAges[1]);
 		
+		String[] weLearned = {"HTML", "CSS", "JavaScript", "Bootstrap", "Java", "Git"};
 		
+		System.out.println(Arrays.toString(weLearned));
 		
 		
 

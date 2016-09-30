@@ -46,6 +46,97 @@ public class _02_for {
 //		}
 //		System.out.println("There are " + numSpaces + " spaces in your string.");
 		
+		//Tobie
+	  	for(int i = 0; i <=  10; i+=2){
+	  		System.out.println(i);
+	  	}
+	  	
+	  	//Danielle
+	  	for(int i = 1; i <=  30; i++){
+	  		System.out.println(i += 2);
+	  	}
+		  
+			
+	  	for(int i=0; i<=30;i+=3){
+	  	
+	  		System.out.println(i);
+	  		if(i == 15){
+	  			System.out.println("Midpoint");
+	  		}else{
+	  			System.out.println("");
+	  		}
+	  	}
+	  	
+	  		//Count to 100 by 7s
+	  		//Leave out 28 & 49
+	  	//Travis
+	  	for(int i = 0; i <= 100; i+=7){
+	  		if(i == 28 || i == 49){
+	  			continue;
+	  		}
+	  		System.out.println(i);
+	  	}
+	  
+	  	for(int i = 0; i <= 100; i+=7){
+	  		if( i != 28 && i != 49){
+	  			System.out.println(i);
+	  		}
+	  	}
+	  	
+	  	
+	  	for(int i = 0; i <=100; i+=7){
+				if(i != 28 && i != 49){
+					System.out.println(i);
+				}
+			}
+			
+			
+			
+			//Count from 1-10.
+			//Console: The number is (number).
+			//Console: If it's five, print "I'm alive."
+			
+			//Steve
+			for(int i=0; i<=10; i++){
+			if (i==5){
+				System.out.println("I'm Alive!");
+			}else{
+				System.out.println("The number is "+i);
+			}
+		}
+		
+		
+		//FIZZBUZZ
+		//1. Print from 1 to 100.
+		//2. If i is a multiple of 3, print Fizz.
+		//3. If i is a multiple of 5, print Buzz.
+		//4. If i is a multiple of 3 & 5, print FizzBuzz.
+		
+		
+
+			for(int i = 1; i <= 10; i++){
+				if(i == 5){
+					System.out.println("I am alive!");
+				}else{
+				System.out.println("The number is " + i);
+				}
+			}
+			
+			
+			
+			
+			for(int i= 1; i <= 100; i++){
+				if(i % 15 == 0){
+					System.out.println("FizzBuzz");
+				}else if(i % 3 == 0){
+					System.out.println("Fizz");
+				}else if(i % 5 == 0){
+					System.out.println("Buzz");
+				}else{
+					System.out.println(i);
+				}
+			}
+		
 		
 		
 		//Bronze Challenge
