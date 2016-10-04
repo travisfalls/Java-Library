@@ -1,8 +1,12 @@
 package _15_Inheritance_Polymorphism;
 
+import _17_Encapsulation.Patriots;
+
 public class Main {
 
 	public static void main(String[] args) {
+		
+		
 		
 
 		Animal george = new Animal();
@@ -32,7 +36,8 @@ public class Main {
 		mickey.hasWhiskers = true;
 		mickey.eats();
 		
-
+		Patriots tBrady = new Patriots();
+		tBrady.name = "Tom Brady";
 		
 		
 	}
